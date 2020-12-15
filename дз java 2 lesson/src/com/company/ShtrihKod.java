@@ -7,7 +7,12 @@ public class ShtrihKod {
         this.shtrihKod = shtrihKod;
     }
 
+    public void setShtrihKod(int shtrihKod) {
+        this.shtrihKod = shtrihKod;
+    }
+
     public int getShtrihKod() {
         return shtrihKod;
+
     }
 }
