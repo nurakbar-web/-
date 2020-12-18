@@ -18,7 +18,6 @@ public class Cat extends Animal  {
 
     @Override
     public String print() {
-
-        return (getParoda() + " " + getName() + " " + getAge() + " " +getCollor());
+        return super.print() +  " Color: " + getCollor();
     }
 }

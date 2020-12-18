@@ -14,16 +14,11 @@ public class Dog extends Animal  {
 
     public Dog(String paroda, int age, String name, String comand) {
         super(paroda, age, name);
-
-
-
     }
 
     @Override
     public String print() {
-
-        return (getParoda() + " " + getName() + " " + getAge() + " " + getComand());
-
+        return super.print() + " Comand: " + getComand();
     }
 }
 

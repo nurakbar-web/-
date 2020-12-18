@@ -36,9 +36,8 @@ public class Animal implements Printable {
         this.name = name;
     }
 
-
     @Override
     public String print() {
-        return null;
+        return "Name: " + getName() + " Paroda: " + getParoda() + " Age: " + getAge();
     }
 }

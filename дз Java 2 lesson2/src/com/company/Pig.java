@@ -20,6 +20,6 @@ public class Pig extends  Animal
     @Override
     public String print() {
 
-        return (getParoda() + " " + getName() + " " + getAge() + " " +getKg());
+        return super.print() + " Kg: " + getKg();
     }
 }
