@@ -1,6 +1,6 @@
 package com.company;
 
-public class Dog extends Animal implements Printable {
+public class Dog extends Animal  {
 
     private String comand;  // команды
 

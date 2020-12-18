@@ -1,6 +1,6 @@
 package com.company;
 
-public class Animal {
+public class Animal implements Printable {
     private String paroda;
     private int age;
     private String name;
@@ -34,5 +34,11 @@ public class Animal {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+
+    @Override
+    public String print() {
+        return null;
     }
 }

@@ -1,6 +1,6 @@
 package com.company;
 
-public class Cat extends Animal implements Printable {
+public class Cat extends Animal  {
 
     private String collor;            // цвет
     public Cat(String paroda, int age, String name, String collor) {

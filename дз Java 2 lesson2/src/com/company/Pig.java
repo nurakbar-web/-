@@ -1,6 +1,6 @@
 package com.company;
 
-public class Pig extends  Animal implements Printable
+public class Pig extends  Animal
 {
     private int kg;  //вес
 
