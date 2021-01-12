@@ -8,6 +8,6 @@ public class Main {
  Car car = new Car(5,3);
 Car car1 = new Car( 4,6  );
 
-        System.out.println();
+        System.out.println(" \uD83D\uDE97");
     }
 }

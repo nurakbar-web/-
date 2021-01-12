@@ -1,6 +1,5 @@
 package com.company;
 
-public interface Drawble <U extends String> {
-    void draw();
-
+public interface Drawble <T extends  Number> {
+    T Id();
 }

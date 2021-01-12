@@ -1,6 +1,6 @@
 package com.company;
 
-public class Car <T extends Number, S extends Number >implements Drawble {
+public class Car <T extends Number, S extends Number >implements Drawble<T> {
     private T tayota;
         private S honda;
 
@@ -17,8 +17,11 @@ public class Car <T extends Number, S extends Number >implements Drawble {
         return honda;
     }
 
+
+
     @Override
-    public void draw() {
-        System.out.println(" \uD83D\uDE97");
+    public T Id() {
+
+        return null;
     }
 }
